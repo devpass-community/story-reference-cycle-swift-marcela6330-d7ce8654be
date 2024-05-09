@@ -1,7 +1,7 @@
 class Account {
     let amount: Double = 0.0
     let currency: String = "BRL"
-    weak var client: Client?
+    let client: Client
 
     init(client: Client) {
         print ("Account initialized")
